@@ -1,7 +1,7 @@
 <template>
   <div>
     <footer>
-      <div class="relative mt-6 bg-blue-400 bg-[url('cube.png')]">
+      <div class="relative mt-6 bg-blue-400 bg-[url('/assets/images/cube.png')] bg-no-repeat bg-right">
         <div class="w-full h-2 bg-orange-600" />
         <div class="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div class="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
@@ -16,17 +16,16 @@
                   :src="footer.logo"
                   width="120"
                   alt="TBootLogo"
-                  href="index.html"
                 >
-                <span class="ml-2 text-xl font-bold tracking-wide text-white uppercase">{{ footer.title }}</span>
+                <span class="ml-2 text-xl font-bold tracking-wide text-white font-lilita">{{ footer.title }}</span>
               </a>
               <div class="mt-4 lg:max-w-sm">
-                <p class="text-sm text-white">
+                <p class="text-sm text-white font-lilita">
                   {{ footer.subtitle }}
                 </p>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+            <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4 font-lilita lg:text-2xl">
               <div>
                 <p
                   class="font-semibold tracking-wide text-white"
@@ -62,7 +61,7 @@
             </div>
           </div>
           <div class="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row">
-            <p class="text-sm text-white">
+            <p class="text-sm text-white font-lilita">
               {{ footer.rights }}
             </p>
             <div class="flex items-center mt-4 space-x-4 sm:mt-0">

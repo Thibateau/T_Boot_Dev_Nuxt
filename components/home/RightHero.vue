@@ -24,14 +24,12 @@
       <img
         :src="heroRight.picture"
         class="object-cover object-top w-full h-64 max-w-xl -mb-16 rounded shadow-2xl lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
-        alt=""
       >
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { PropType } from '@nuxtjs/composition-api'
 import { IRightHero } from '../../types'
 export default {
   props: {

@@ -82,7 +82,7 @@ export const FOOTER_DATA : IFooter = {
     { label: 'CONTACT', url: 'contact.vue' },
   ],
   rights: ' © Copyright 2022 T_Boot_Dev. All rights reserved.',
-  logo: '/images/logo.png',
+  logo: '/assets/images/logo.png',
   social: [
     { url: 'https://www.instagram.com/t_boot_dev/?hl=fr', label: 'Instagram' },
     { url: 'https://www.linkedin.com/in/thibaut-plichon-2b316b1a0/', label: 'Linkedin' },

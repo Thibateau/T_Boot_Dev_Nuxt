@@ -46,8 +46,6 @@
 </template>
 
 <script lang="ts">
-import { PropType } from '@nuxtjs/composition-api'
-
 import { INavBar } from '../types'
 export default {
   props: {

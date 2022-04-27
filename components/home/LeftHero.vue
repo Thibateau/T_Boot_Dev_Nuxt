@@ -24,7 +24,6 @@
 </template>
 
 <script lang="ts">
-import { PropType } from '@nuxtjs/composition-api'
 import { ILeftHero } from '../../types'
 export default {
   props: {

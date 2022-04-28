@@ -12,12 +12,13 @@
       <p class="text-xl mt-4 text-gray-400" />
       <div class="lg:mt-0 lg:flex-shrink-0">
         <div class="mt-12 inline-flex rounded-md shadow">
-          <button
+          <RouterLink
+            to="contact"
             type="button"
             class="py-4 px-6  bg-magenta-fuchsia-600 hover:bg-scooter-600 focus:ring-magenta-fuchsia-600 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
           >
             {{ heroCartoon.label }}
-          </button>
+          </RouterLink>
         </div>
       </div>
     </div>

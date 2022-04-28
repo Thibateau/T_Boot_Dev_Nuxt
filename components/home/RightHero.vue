@@ -11,12 +11,12 @@
           </p>
         </div>
         <div class="flex items-center">
-          <a
-            href="contact.html"
+          <RouterLink
+            to="contact"
             class="inline-flex items-center bg-magenta-fuchsia-600 hover:bg-scooter-600 focus:ring-magenta-fuchsia-600 focus:ring-offset-indigo-200 text-white w-1/2 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2   justify-center h-12 px-6 mr-6 tracking-wide  rounded"
           >
             {{ heroRight.label }}
-          </a>
+          </RouterLink>
         </div>
       </div>
     </div>

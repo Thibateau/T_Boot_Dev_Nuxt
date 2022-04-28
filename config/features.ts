@@ -57,6 +57,7 @@ export const CARTOON_HERO_DATA : ICartoonHero = {
   subtitle: 'Développées dans divers domaines',
   label: 'A votre tour ?',
 }
+
 export const PROJECT_PRESENTATION_DATA : IProjectPresentation = {
   title: 'Voici nos travaux :',
   text: "Ces projets ont été développés dans le cadre d'étude ou pour des professionels.",

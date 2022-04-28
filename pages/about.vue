@@ -13,7 +13,7 @@ import {
 
 export default {
   computed: {
-    heroLeftData () {
+    heroPictureData () {
       return PICTURE_HERO_DATA
     },
     boxToolData () {

@@ -16,6 +16,7 @@
             class="inline-flex items-center bg-blue-400 justify-center h-12 px-6 mr-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
           >
             {{ heroRight.label }}
+            <h1 class="bg-gradient-to-r from-dark-blue-300 via-fuchsia-500 to-biloba-flower-400 text-3xl bg-[length:400%] animate-move-bg bg-clip-text text-transparent">COUCOU</h1>
           </a>
         </div>
       </div>

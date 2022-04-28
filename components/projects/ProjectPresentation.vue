@@ -5,11 +5,29 @@
       <p class="mt-4 text-base text-gray-500">{{ presentationProject.text }}</p>
 
       <div class="mt-10 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
-        <ProjectItem
+        <div
           v-for="(item,index) in presentationProject.works"
           :key="index"
           :presentation-project="item"
-        />
+        >
+          <a
+            href="#"
+            class="group block"
+          >
+            <div
+              aria-hidden="true"
+              class="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden group-hover:opacity-75 lg:aspect-w-5 lg:aspect-h-6"
+            >
+              <img
+                :src="item.picture"
+                alt="Brown leather key ring with brass metal loops and rivets on wood table."
+                class="w-full h-full object-center object-cover"
+              >
+            </div>
+            <h3 class="mt-4 text-base font-semibold text-gray-900">{{ item.title }}</h3>
+            <p class="mt-2 text-sm text-gray-500">{{ item.text }}</p>
+          </a>
+        </div>
       </div>
     </div>
   </div>

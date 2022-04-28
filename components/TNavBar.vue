@@ -9,15 +9,18 @@
                 v-for="(item,index) in nav.left"
                 :key="index"
               >
-                <a
-                  :href="item.url"
+                <RouterLink
+                  :to="{name: item.name}"
                   :aria-label="item.label"
                   :title="item.label"
                   class="lg:mr-12 text-xl text-white border-dark-blue-300 flex lg:w-32 lg:h-8 items-center justify-center hover-uderline:text-magenta-fuchsia-600 font-bungee drop-shadow-xl"
-                >{{ item.label }}</a>
+                >
+                  {{
+                    item.label
+                  }}
+                </RouterLink>
               </li>
             </ul>
-
             <img
               :src="nav.logo"
               width="170"
@@ -30,12 +33,16 @@
                 v-for="(item,index) in nav.right"
                 :key="index"
               >
-                <a
-                  :href="item.url"
+                <RouterLink
+                  :to="{name: item.name}"
                   :aria-label="item.label"
                   :title="item.label"
-                  class="lg:mr-12 bg-white rounded-lg border-2 text-xl  border-dark-blue-300 flex lg:w-32 lg:h-8 items-center justify-center hover:text-magenta-fuchsia-600 font-bungee font-bold tracking-wide text-black drop-shadow-xl"
-                >{{ item.label }}</a>
+                  class="lg:mr-12 text-xl text-white border-dark-blue-300 flex lg:w-32 lg:h-8 items-center justify-center hover-uderline:text-magenta-fuchsia-600 font-bungee drop-shadow-xl"
+                >
+                  {{
+                    item.label
+                  }}
+                </RouterLink>
               </li>
             </ul>
           </div>

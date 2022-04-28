@@ -1,7 +1,8 @@
 <template>
   <div>
     <footer>
-      <div class="relative mt-6 bg-blue-400 bg-[url('/assets/images/cube.png')] bg-no-repeat bg-right">
+      <div class="relative mt-6 bg-scooter-600 bg-[url('/assets/images/cube.png')] bg-no-repeat bg-right">
+        <div class="w-full h-2 bg-magenta-fuchsia-600" />
         <div class="w-full h-2 bg-orange-600" />
         <div class="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div class="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">

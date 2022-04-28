@@ -12,11 +12,21 @@
             </p>
           </div>
           <div class="grid gap-10 mx-auto lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-4">
-            <ToolItem
+            <div
               v-for="(item,index) in boxTool.toolsitems"
               :key="index"
+              class="flex flex-col items-center"
               :box-tool="item"
-            />
+            >
+              <img
+                class="object-cover w-20 h-20 mb-2 rounded-full shadow"
+                :src="item.picture"
+                :alt="item.label"
+              >
+              <div class="flex flex-col items-center">
+                <p class="text-lg font-bold">{{ item.label }}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -25,7 +35,6 @@
 </template>
 
 <script lang="ts">
-import { PropType } from '@nuxtjs/composition-api'
 import { IToolsBox } from '../../types'
 export default {
   props: {

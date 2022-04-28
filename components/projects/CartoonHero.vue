@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-white relative mx-44">
+  <div class="bg-white relative lg:max-w-6xl py-16 justify-center flex items-center">
     <div class="text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
       <h2 class="text-3xl font-extrabold text-black sm:text-4xl">
         <span class="block">
           {{ heroCartoon.title }}
         </span>
-        <span class="block text-indigo-500 mt-2">
+        <span class="block text-orange-600 mt-2">
           {{ heroCartoon.subtitle }}
         </span>
       </h2>
@@ -14,7 +14,7 @@
         <div class="mt-12 inline-flex rounded-md shadow">
           <button
             type="button"
-            class="py-4 px-6  bg-indigo-600 hover:bg-blue-400 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+            class="py-4 px-6  bg-magenta-fuchsia-600 hover:bg-scooter-600 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
           >
             {{ heroCartoon.label }}
           </button>

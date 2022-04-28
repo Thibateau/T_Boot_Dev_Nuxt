@@ -2,11 +2,11 @@
 // NAVBAR
 export interface ILeftItems {
 	label: string;
-	url:string;
+	name:string;
 }
 export interface IRightItems {
 	label: string;
-	url:string;
+	name:string;
 }
 export interface INavBar{
 	left : ILeftItems[]
@@ -29,7 +29,7 @@ export interface IRightHero {
 	picture : string,
 	title: string,
 	subtitle: string,
-	ctas: ICta[]
+	label: string,
 }
 
 // ABOUT PAGE
@@ -59,7 +59,7 @@ export interface ICartoonHero {
 	picture : string,
 	title: string,
 	subtitle: string,
-	ctas: ICta[]
+	labe: string,
 }
 export interface WorkItem{
 	picture:string,

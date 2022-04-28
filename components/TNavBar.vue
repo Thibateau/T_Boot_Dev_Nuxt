@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav>
-      <div class="bg-scooter-600 bg-[url('/assets/images/cube2.png')] bg-no-repeat bg-right sm:max-w-full">
+      <div class="bg-scooter-600 bg-no-repeat sm:max-w-full">
         <div class=" px-4 py-6 mx-auto lg:py-6 sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
             <ul class="items-center lg:flex">
@@ -49,8 +49,8 @@
         </div>
       </div>
     </nav>
-    <div class="w-full h-1 bg-orange-600" />
-    <div class="w-full h-1 bg-magenta-fuchsia-600" />
+    <div class="w-full h-3 bg-orange-600" />
+    <div class="w-full h-2 bg-magenta-fuchsia-600" />
   </div>
 </template>
 

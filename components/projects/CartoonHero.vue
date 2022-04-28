@@ -23,7 +23,7 @@
     </div>
     <img
       :src="heroCartoon.picture"
-      class="h-full lg:block right-0 top-0 flex"
+      class="h-full max-w-1/2 lg:block right-0 top-0"
       width="350"
     >
   </div>

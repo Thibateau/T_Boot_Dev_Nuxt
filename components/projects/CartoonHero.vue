@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white relative lg:max-w-6xl py-16 justify-center flex items-center">
+  <div class="bg-white relative py-16 px-8 justify-center flex">
     <div class="text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
       <h2 class="text-3xl font-extrabold text-black sm:text-4xl">
         <span class="block">
@@ -14,7 +14,7 @@
         <div class="mt-12 inline-flex rounded-md shadow">
           <button
             type="button"
-            class="py-4 px-6  bg-magenta-fuchsia-600 hover:bg-scooter-600 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+            class="py-4 px-6  bg-magenta-fuchsia-600 hover:bg-scooter-600 focus:ring-magenta-fuchsia-600 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
           >
             {{ heroCartoon.label }}
           </button>
@@ -23,13 +23,13 @@
     </div>
     <img
       :src="heroCartoon.picture"
-      class="absolute h-full max-w-1/2 hidden lg:block right-0 top-0"
+      class="h-full lg:block right-0 top-0 flex"
+      width="350"
     >
   </div>
 </template>
 
 <script lang="ts">
-import { PropType } from '@nuxtjs/composition-api'
 import { ICartoonHero } from '../../types'
 export default {
   props: {

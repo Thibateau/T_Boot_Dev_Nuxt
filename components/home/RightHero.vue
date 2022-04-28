@@ -13,10 +13,9 @@
         <div class="flex items-center">
           <a
             href="contact.html"
-            class="inline-flex items-center bg-blue-400 justify-center h-12 px-6 mr-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+            class="inline-flex items-center bg-magenta-fuchsia-600 hover:bg-scooter-600 focus:ring-magenta-fuchsia-600 focus:ring-offset-indigo-200 text-white w-1/2 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2   justify-center h-12 px-6 mr-6 tracking-wide  rounded"
           >
             {{ heroRight.label }}
-            <h1 class="bg-gradient-to-r from-dark-blue-300 via-fuchsia-500 to-biloba-flower-400 text-3xl bg-[length:400%] animate-move-bg bg-clip-text text-transparent">COUCOU</h1>
           </a>
         </div>
       </div>

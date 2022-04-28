@@ -4,7 +4,7 @@
       <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ presentationProject.title }}</h2>
       <p class="mt-4 text-base text-gray-500">{{ presentationProject.text }}</p>
 
-      <div class="mt-10 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
+      <div class="mt-16 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
         <div
           v-for="(item,index) in presentationProject.works"
           :key="index"
@@ -21,7 +21,7 @@
               <img
                 :src="item.picture"
                 alt="Brown leather key ring with brass metal loops and rivets on wood table."
-                class="w-full h-full object-center object-cover"
+                class="w-full mt-6 h-full object-center object-cover"
               >
             </div>
             <h3 class="mt-4 text-base font-semibold text-gray-900">{{ item.title }}</h3>

@@ -26,38 +26,38 @@
                 </p>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4 font-lilita lg:text-2xl">
+            <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4 font-lilita lg:text-3xl">
               <div>
-                <p
+                <RouterLink
+                  to="index"
                   class="font-semibold tracking-wide text-white"
-                  href="Acceuil.html"
                 >
-                  Category
-                </p>
+                  Accueil
+                </RouterLink>
               </div>
               <div>
-                <p
+                <router-link
+                  to="about"
                   class="font-semibold tracking-wide text-white"
-                  href="about.html"
                 >
                   A propos
-                </p>
+                </router-link>
               </div>
               <div>
-                <p
+                <router-link
+                  to="projects"
                   class="font-semibold tracking-wide text-white"
-                  href="project.html"
                 >
                   Projets
-                </p>
+                </router-link>
               </div>
               <div>
-                <p
+                <router-link
+                  to="contact"
                   class="font-semibold tracking-wide text-white"
-                  href="contact.html"
                 >
                   Contact
-                </p>
+                </router-link>
               </div>
             </div>
           </div>

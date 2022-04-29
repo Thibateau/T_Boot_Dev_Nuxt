@@ -9,7 +9,7 @@ export const NAV_BAR_DATA : INavBar = {
     { label: 'PROJETS', name: 'projects' },
     { label: 'CONTACT', name: 'contact' },
   ],
-  logo: '/assets/images/logo.png',
+  logo: '/images/logo.png',
 }
 // HOME PAGE
 export const LEFT_HERO_DATA: ILeftHero = {
@@ -34,25 +34,25 @@ export const PICTURE_HERO_DATA : IPictureHero = {
     { url: 'https://www.linkedin.com/in/thibaut-plichon-2b316b1a0/', label: 'Linkedin' },
     { url: 'https://github.com/Thibateau', label: 'Github' },
   ],
-  picture: '/assets/images/Thibaut.png',
+  picture: '/images/Thibaut.png',
 }
 export const TOOL_BOX_DATA : IToolsBox = {
   title: 'Ma boite à outils :',
   paragraph: "j'utilise différents languages de programmation et technologies afin de répondre au mieux à vos besoins",
   toolsitems: [
-    { picture: '/assets/images/html.png', label: 'HTML' },
-    { picture: '/assets/images/css.png', label: 'CSS' },
-    { picture: '/assets/images/javascript.png', label: 'Javascript' },
-    { picture: '/assets/images/vuejs.png', label: 'Vue & NuxtJs' },
-    { picture: '/assets/images/wordpress.png', label: 'Wordpress' },
-    { picture: '/assets/images/figma.png', label: 'Figma' },
-    { picture: '/assets/images/tailwind.png', label: 'Tailwind ' },
-    { picture: '/assets/images/photoshop.png', label: 'Photoshop' },
+    { picture: '/images/html.png', label: 'HTML' },
+    { picture: '/images/css.png', label: 'CSS' },
+    { picture: '/images/javascript.png', label: 'Javascript' },
+    { picture: '/images/vuejs.png', label: 'Vue & NuxtJs' },
+    { picture: '/images/wordpress.png', label: 'Wordpress' },
+    { picture: '/images/figma.png', label: 'Figma' },
+    { picture: '/images/tailwind.png', label: 'Tailwind ' },
+    { picture: '/images/photoshop.png', label: 'Photoshop' },
   ],
 }
 // PROJECTS PAGE
 export const CARTOON_HERO_DATA : ICartoonHero = {
-  picture: '/assets/images/cartoon.PNG',
+  picture: '/images/cartoon.PNG',
   title: 'Voici mes différentes applications',
   subtitle: 'Développées dans divers domaines',
   label: 'A votre tour ?',
@@ -62,12 +62,12 @@ export const PROJECT_PRESENTATION_DATA : IProjectPresentation = {
   title: 'Voici nos travaux :',
   text: "Ces projets ont été développés dans le cadre d'étude ou pour des professionels.",
   works: [
-    { picture: '/assets/images/psukheMockup.jpg', title: 'Psukhé', text: 'Site réalisé pour une psychologue Lilloise.' },
-    { picture: '/assets/images/AntManne.jpg', title: 'Ant-Manne', text: "Simulateur d'une fourmiliére avec site dédié." },
-    { picture: '/assets/images/simpsonsMockup.jpg', title: 'Random Simpsons', text: "Projet personnel dans le but d'utiliser les api avec nuxt." },
-    { picture: '/assets/images/TBoot.png', title: 'T Boot', text: 'Création de site web sous Nuxt.JS pour branding' },
-    { picture: '/assets/images/Prout.png', title: 'Prout', text: "Landing page animé en javascript design avec un peu d'humour " },
-    { picture: '/assets/images/BinBin.png', title: 'Binbin Jaaro', text: "Site web pour la présentation d'une marque de bijoux" },
+    { picture: '/images/psukheMockup.jpg', title: 'Psukhé', text: 'Site réalisé pour une psychologue Lilloise.' },
+    { picture: '/images/AntManne.jpg', title: 'Ant-Manne', text: "Simulateur d'une fourmiliére avec site dédié." },
+    { picture: '/images/simpsonsMockup.jpg', title: 'Random Simpsons', text: "Projet personnel dans le but d'utiliser les api avec nuxt." },
+    { picture: '/images/TBoot.png', title: 'T Boot', text: 'Création de site web sous Nuxt.JS pour branding' },
+    { picture: '/images/Prout.png', title: 'Prout', text: "Landing page animé en javascript design avec un peu d'humour " },
+    { picture: '/images/BinBin.png', title: 'Binbin Jaaro', text: "Site web pour la présentation d'une marque de bijoux" },
   ],
 }
 // FOOTER
@@ -81,7 +81,7 @@ export const FOOTER_DATA : IFooter = {
     { label: 'CONTACT', name: 'contact' },
   ],
   rights: ' © Copyright 2022 T_Boot_Dev. All rights reserved.',
-  logo: '/assets/images/logo.png',
+  logo: '/images/logo.png',
   social: [
     { url: 'https://www.instagram.com/t_boot_dev/?hl=fr', label: 'Instagram' },
     { url: 'https://www.linkedin.com/in/thibaut-plichon-2b316b1a0/', label: 'Linkedin' },

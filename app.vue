@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts">
-import './assets/css/main.css'
+import './public/css/main.css'
 import { FOOTER_DATA, NAV_BAR_DATA } from './config/features'
 export default {
   computed: {

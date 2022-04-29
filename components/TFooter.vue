@@ -1,7 +1,7 @@
 <template>
   <div>
     <footer>
-      <div class="mt-6 bg-scooter-600">
+      <div class="mt-6 bg-scooter-600 bg-[url('/assets/images/cubefooter2.png')] bg-left bg-no-repeat">
         <div class="w-full h-1 bg-magenta-fuchsia-600" />
         <div class="w-full h-2 bg-orange-600" />
         <div class="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -29,7 +29,7 @@
             <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4 font-lilita lg:text-3xl">
               <div>
                 <RouterLink
-                  to="index"
+                  to="/"
                   class="font-semibold tracking-wide text-white"
                 >
                   Accueil

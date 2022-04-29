@@ -21,13 +21,16 @@
                 </RouterLink>
               </li>
             </ul>
-            <img
-              :src="nav.logo"
-              width="170"
-              alt="TBootLogo"
-              class=""
+            <RouterLink
+              to="/"
             >
-
+              <img
+                :src="nav.logo"
+                width="170"
+                alt="TBootLogo"
+                class=""
+              >
+            </RouterLink>
             <ul class="items-center lg:flex">
               <li
                 v-for="(item,index) in nav.right"

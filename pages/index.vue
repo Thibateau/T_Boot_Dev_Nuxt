@@ -1,11 +1,13 @@
 <template>
   <div>
-    <LeftHero :hero-left="heroLeftData" 
-     class="mb-16"
+    <LeftHero
+      :hero-left="heroLeftData"
+      class="mb-16"
     />
 
-    <RightHero :hero-right="heroRightData" 
-     class="mb-16"
+    <RightHero
+      :hero-right="heroRightData"
+      class="mb-16"
     />
   </div>
 </template>

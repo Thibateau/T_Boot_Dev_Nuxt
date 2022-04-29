@@ -29,7 +29,7 @@
             <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4 font-lilita lg:text-3xl">
               <div>
                 <RouterLink
-                  to="index"
+                  to="/"
                   class="font-semibold tracking-wide text-white"
                 >
                   Accueil

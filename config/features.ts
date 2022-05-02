@@ -14,7 +14,7 @@ export const NAV_BAR_DATA : INavBar = {
 // HOME PAGE
 export const LEFT_HERO_DATA: ILeftHero = {
   picture: 'https://kitwind.io/assets/kometa/laptop.png',
-  title: 'T_Boot développement',
+  title: 'TBoot développement',
   subtitle: 'web front-end',
   paragraph: "Création d'applications web dynamiques , rapides, design.",
 }
@@ -28,7 +28,7 @@ export const RIGHT_HERO_DATA : IRightHero = {
 export const PICTURE_HERO_DATA : IPictureHero = {
   title: 'Qui',
   subtitle: 'je suis :',
-  paragraph: "Je suis Thibaut Plichon,developpeur depuis 2021 j'ai toujours été passionné d'informatique et ai entrepris de devenir développeur dans le but d'accompagner les personnes dans la création d'application web. <br> Je suis tout aussi attentif au côté technique que créatif et ce mélange me permet de réaliser du contenu performant et personnalisé.",
+  paragraph: "Je suis Thibaut Plichon, <strong>développeur</strong> depuis 2021 j'ai toujours été passionné d'informatique et ai entrepris de devenir développeur dans le but d'accompagner les pros dans la création d'application <strong>web</strong>. <br><br> Je suis tout aussi attentif au côté <strong>technique</strong> que <strong>créatif</strong> et ce mélange me permet de réaliser du contenu performant et personnalisé.",
   socials: [
     { url: 'https://www.instagram.com/t_boot_dev/?hl=fr', label: 'Instagram' },
     { url: 'https://www.linkedin.com/in/thibaut-plichon-2b316b1a0/', label: 'Linkedin' },

@@ -13,7 +13,7 @@
                   :to="{name: item.name}"
                   :aria-label="item.label"
                   :title="item.label"
-                  class="lg:mr-12 text-xl text-white flex lg:w-32 lg:h-8 font-glitten items-center justify-center drop-shadow-xl"
+                  class="lg:mr-12 text-xl text-white flex lg:w-32 lg:h-8 font-glitten items-center justify-center drop-shadow-xl hover:animate-bounce"
                 >
                   {{
                     item.label
@@ -40,7 +40,7 @@
                   :to="{name: item.name}"
                   :aria-label="item.label"
                   :title="item.label"
-                  class="lg:mr-12 text-xl text-white flex lg:w-32 lg:h-8 items-center justify-center font-glitten drop-shadow-xl"
+                  class="lg:mr-12 text-xl text-white flex lg:w-32 lg:h-8 items-center justify-center font-glitten drop-shadow-xl hover:animate-bounce"
                 >
                   {{
                     item.label

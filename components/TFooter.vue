@@ -30,7 +30,7 @@
               <div>
                 <RouterLink
                   to="/"
-                  class="font-semibold font-glitten tracking-wide text-white"
+                  class="hover:animate-bounce font-glitten tracking-wide text-white"
                 >
                   Accueil
                 </RouterLink>
@@ -38,7 +38,7 @@
               <div>
                 <router-link
                   to="about"
-                  class="font-semibold font-glitten tracking-wide text-white"
+                  class="hover:animate-bounce font-glitten tracking-wide text-white"
                 >
                   A propos
                 </router-link>
@@ -46,7 +46,7 @@
               <div>
                 <router-link
                   to="projects"
-                  class="font-semibold font-glitten tracking-wide text-white"
+                  class="hover:animate-bouncefont-glitten tracking-wide text-white"
                 >
                   Projets
                 </router-link>
@@ -54,7 +54,7 @@
               <div>
                 <router-link
                   to="contact"
-                  class="font-semibold font-glitten tracking-wide text-white"
+                  class="hover:animate-bounce font-glitten tracking-wide text-white"
                 >
                   Contact
                 </router-link>

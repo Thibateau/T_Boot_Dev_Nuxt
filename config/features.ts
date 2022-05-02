@@ -28,7 +28,7 @@ export const RIGHT_HERO_DATA : IRightHero = {
 export const PICTURE_HERO_DATA : IPictureHero = {
   title: 'Qui',
   subtitle: 'je suis :',
-  paragraph: "Bonjour, je suis Thibaut Plichon,developpeur depuis 2021 j'ai toujours été passionné d'informatique et ai entrepris de devenir développeur dans le but d'accompagner les personnes dans la création d'application web. Je suis tout aussi attentif au côté technique que créatif et ce mélange me permet de réaliser du contenu performant et personnalisé.",
+  paragraph: "Je suis Thibaut Plichon,developpeur depuis 2021 j'ai toujours été passionné d'informatique et ai entrepris de devenir développeur dans le but d'accompagner les personnes dans la création d'application web. <br> Je suis tout aussi attentif au côté technique que créatif et ce mélange me permet de réaliser du contenu performant et personnalisé.",
   socials: [
     { url: 'https://www.instagram.com/t_boot_dev/?hl=fr', label: 'Instagram' },
     { url: 'https://www.linkedin.com/in/thibaut-plichon-2b316b1a0/', label: 'Linkedin' },

@@ -24,7 +24,12 @@
     </div>
     <img
       :src="heroCartoon.picture"
+<<<<<<< HEAD
       class="flex w-2/5 h-full sm:w-1/6"
+=======
+      class="h-full flex max-w-1/2 lg:block right-0 top-0"
+      width="350"
+>>>>>>> e516c0c (animation on nav & footer items)
     >
   </div>
 </template>

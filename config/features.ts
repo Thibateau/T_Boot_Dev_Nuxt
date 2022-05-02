@@ -2,12 +2,12 @@ import { ILeftHero, IPictureHero, IRightHero, IToolsBox, ICartoonHero, IProjectP
 
 export const NAV_BAR_DATA : INavBar = {
   left: [
-    { label: 'ACCUEIL', name: 'index' },
-    { label: 'A PROPOS', name: 'about' },
+    { label: 'Accueil', name: 'index' },
+    { label: 'A propos', name: 'about' },
   ],
   right: [
-    { label: 'PROJETS', name: 'projects' },
-    { label: 'CONTACT', name: 'contact' },
+    { label: 'Projets', name: 'projects' },
+    { label: 'Contact', name: 'contact' },
   ],
   logo: '/images/logo.png',
 }
@@ -38,7 +38,7 @@ export const PICTURE_HERO_DATA : IPictureHero = {
 }
 export const TOOL_BOX_DATA : IToolsBox = {
   title: 'Ma boite à outils :',
-  paragraph: "j'utilise différents languages de programmation et technologies afin de répondre au mieux à vos besoins",
+  paragraph: "J'utilise différents languages de programmation et technologies afin de répondre au mieux à vos besoins",
   toolsitems: [
     { picture: '/images/html.png', label: 'HTML' },
     { picture: '/images/css.png', label: 'CSS' },

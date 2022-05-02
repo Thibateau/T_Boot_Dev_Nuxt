@@ -37,7 +37,7 @@
         {{ heroPicture.paragraph }}
       </p>
     </div>
-    <div class="flex items-center mt-6 -mx-2 mb-8">
+    <div class="flex items-center -mx-2 mb-8">
       <a
         class="mx-2"
         href="https://www.instagram.com/t_boot_dev/?hl=fr"
@@ -87,7 +87,7 @@
     </div>
     <img
       :src="heroPicture.picture"
-      class="w-full mx-auto md:w-auto md:max-w-xs rounded-full border-2 border-blue-400"
+      class="w-full mx-auto md:w-auto md:max-w-xs rounded-full border-4 border-scooter-600"
     >
   </div>
 </template>

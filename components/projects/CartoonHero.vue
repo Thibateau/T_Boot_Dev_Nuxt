@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white relative py-16 px-8 justify-center flex">
-    <div class="text-start w-1/2 py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+  <div class="bg-red-200 py-16 px-8 justify-center flex ">
+    <div class="text-start w-1/2 py-12 px-4 lg:py-16 lg:px-8">
       <h2 class="text-3xl font-extrabold text-black sm:text-4xl">
         <span class="block">
           {{ heroCartoon.title }}
@@ -15,7 +15,7 @@
           <RouterLink
             to="contact"
             type="button"
-            class="py-4 px-6  bg-magenta-fuchsia-600 hover:bg-scooter-600 focus:ring-magenta-fuchsia-600 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+            class="py-4 px-6  bg-magenta-fuchsia-600 hover:bg-scooter-600 focus:ring-magenta-fuchsia-600 focus:ring-offset-indigo-200 animate-pulse text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
           >
             {{ heroCartoon.label }}
           </RouterLink>

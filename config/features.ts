@@ -21,7 +21,7 @@ export const LEFT_HERO_DATA: ILeftHero = {
 export const RIGHT_HERO_DATA : IRightHero = {
   picture: 'https://kitwind.io/assets/kometa/full-browser.png',
   title: "Utilisation d'outils performants",
-  subtitle: "Je suis soucieux de developper les applications avec des technologies qui ont un rendu perfomant, rapide, stable et sécurisé afin d'optimiser votre rendu.",
+  subtitle: "Je suis soucieux de developper les applications avec des technologies qui ont un rendu perfomant, rapide, stable et sécurisé afin d'optimiser le résultat.",
   label: 'Me contacter',
 }
 // ABOUT PAGE
@@ -59,14 +59,14 @@ export const CARTOON_HERO_DATA : ICartoonHero = {
 }
 
 export const PROJECT_PRESENTATION_DATA : IProjectPresentation = {
-  title: 'Voici nos travaux :',
-  text: "Ces projets ont été développés dans le cadre d'étude ou pour des professionels.",
+  title: 'Mes travaux :',
+  text: "Ces projets ont été développés dans le cadre d'études ou pour des professionels.",
   works: [
-    { picture: '/images/psukheMockup.jpg', title: 'Psukhé', text: 'Site réalisé pour une psychologue Lilloise.' },
-    { picture: '/images/AntManne.jpg', title: 'Ant-Manne', text: "Simulateur d'une fourmiliére avec site dédié." },
-    { picture: '/images/simpsonsMockup.jpg', title: 'Random Simpsons', text: "Projet personnel dans le but d'utiliser les api avec nuxt." },
+    { picture: '/images/psukheMockup.jpg', title: 'Psukhé', text: 'Site réalisé pour une psychologue Lilloise' },
+    { picture: '/images/AntManne.jpg', title: 'Ant-Manne', text: 'Simulateur de fourmiliére avec site dédié' },
+    { picture: '/images/simpsonsMockup.jpg', title: 'Random Simpsons', text: "Projet personnel dans le but d'utiliser les api avec nuxt" },
     { picture: '/images/TBoot.png', title: 'T Boot', text: 'Création de site web sous Nuxt.JS pour branding' },
-    { picture: '/images/Prout.png', title: 'Prout', text: "Landing page animé en javascript design avec un peu d'humour " },
+    { picture: '/images/Prout.png', title: 'P.design', text: 'Landing page animé en javascript design avec humour' },
     { picture: '/images/BinBin.png', title: 'Binbin Jaaro', text: "Site web pour la présentation d'une marque de bijoux" },
   ],
 }

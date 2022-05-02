@@ -34,7 +34,7 @@
         {{ heroPicture.subtitle }}
       </h2>
       <p class="text-base text-gray-700 md:text-lg">
-        {{ heroPicture.paragraph }}
+        <span v-html="heroPicture.paragraph" />
       </p>
     </div>
     <div class="flex items-center -mx-2 mb-8">

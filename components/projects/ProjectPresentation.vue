@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white ">
-    <div class="max-w-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="max-w-xl mx-auto py-6 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
       <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ presentationProject.title }}</h2>
       <p class="mt-4 text-base text-gray-500">{{ presentationProject.text }}</p>
 

@@ -5,7 +5,7 @@
       class="flex justify-center"
     >
       <img
-        class="rounded-full pt-52 w-2/5 sm:w-2/3"
+        class="rounded-full pt-52 w-2/3 sm:w-2/5"
         src="/images/loading.gif"
       >
     </div>

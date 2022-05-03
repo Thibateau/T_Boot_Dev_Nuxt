@@ -12,7 +12,6 @@ module.exports = {
       fontFamily: {
         lilita: 'Lilita',
         bungee: 'Bungee',
-        glitten: 'glittenregular',
       },
       colors: {
         'magenta-fuchsia': {

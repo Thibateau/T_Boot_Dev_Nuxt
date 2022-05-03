@@ -1,5 +1,5 @@
 <template>
-  <div class="relative px-4 sm:pt-0 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
+  <div class="relative px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
     <div class="max-w-xl mx-auto lg:max-w-screen-xl">
       <div class="mb-16 lg:max-w-lg lg:mb-0">
         <div class="max-w-xl mb-6">
@@ -13,7 +13,7 @@
         <div class="flex items-center">
           <RouterLink
             to="contact"
-            class="animate-pulse inline-flex items-center bg-magenta-fuchsia-600 hover:bg-scooter-600 focus:ring-magenta-fuchsia-600 focus:ring-offset-indigo-200 text-white w-1/2 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2   justify-center h-12 px-6 mr-6 tracking-wide  rounded"
+            class="inline-flex items-center bg-magenta-fuchsia-600 hover:bg-scooter-600 focus:ring-magenta-fuchsia-600 focus:ring-offset-indigo-200 text-white w-1/2 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2   justify-center h-12 px-6 mr-6 tracking-wide  rounded"
           >
             {{ heroRight.label }}
           </RouterLink>

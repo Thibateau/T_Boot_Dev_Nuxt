@@ -64,7 +64,7 @@ export const PROJECT_PRESENTATION_DATA : IProjectPresentation = {
   works: [
     { picture: '/images/psukheMockup.jpg', title: 'Psukhé', text: 'Site réalisé pour une psychologue Lilloise' },
     { picture: '/images/AntManne.jpg', title: 'Ant-Manne', text: 'Simulateur de fourmiliére avec site dédié' },
-    { picture: '/images/simpsonsMockup.jpg', title: 'Random Simpsons', text: "Projet personnel dans le but d'utiliser les api avec nuxt" },
+    { picture: '/images/simpsonsMockup.jpg', title: 'Random Simpsons', text: "Projet personnel dans le but d'utiliser une api avec nuxt" },
     { picture: '/images/TBoot.png', title: 'T Boot', text: 'Création de site web sous Nuxt.JS pour branding' },
     { picture: '/images/Prout.png', title: 'P.design', text: 'Landing page animé en javascript design avec humour' },
     { picture: '/images/BinBin.png', title: 'Binbin Jaaro', text: "Site web pour la présentation d'une marque de bijoux" },

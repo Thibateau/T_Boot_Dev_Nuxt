@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Lilita+One&display=swap');
+@font-face 
+{
+	font-family: 'glittenregular';
+	src: url('./glitten-regular-webfont.woff2') format('woff2'),
+			 url('./glitten-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+

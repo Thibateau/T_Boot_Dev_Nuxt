@@ -88,7 +88,7 @@
     </div>
     <img
       :src="heroPicture.picture"
-      class="w-full mx-auto md:w-auto md:max-w-xs rounded-full border-4 border-scooter-600"
+      class="mx-auto w-2/5 md:w-auto md:max-w-xs rounded-full border-4 border-scooter-600"
     >
   </div>
 </template>

@@ -46,7 +46,7 @@
               <div>
                 <router-link
                   to="projects"
-                  class="hover:animate-bouncefont-glitten tracking-wide text-white"
+                  class="hover:animate-bounce font-glitten tracking-wide text-white"
                 >
                   Projets
                 </router-link>

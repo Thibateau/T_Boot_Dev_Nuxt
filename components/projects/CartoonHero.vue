@@ -1,6 +1,6 @@
 <template>
-  <div class="py-16 px-8 justify-center items-center flex sm:flex-col">
-    <div class="flex py-12 flex-col px-4 lg:py-16 lg:px-8">
+  <div class="py-16 px-8 justify-center content-center flex-col flex items-center sm:flex-row">
+    <div class="flex flex-col py-12 lg:py-16 lg:px-8">
       <h2 class="text-3xl font-extrabold text-black sm:text-4xl">
         <span class="block">
           {{ heroCartoon.title }}
@@ -24,8 +24,7 @@
     </div>
     <img
       :src="heroCartoon.picture"
-      class="h-full flex max-w-1/2 lg:block right-0 top-0"
-      width="350"
+      class="flex w-2/5 h-full sm:w-1/6"
     >
   </div>
 </template>

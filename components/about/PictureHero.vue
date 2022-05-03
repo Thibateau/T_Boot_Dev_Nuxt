@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col items-center justify-center max-w-2xl px-4 pt-16 mx-auto sm:max-w-xl md:max-w-2xl lg:pt-32 md:px-8">
     <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-      <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+      <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto">
         <span class="relative inline-block">
           <svg
             viewBox="0 0 52 24"
             fill="currentColor"
-            class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+            class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-orange-600 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
           >
             <defs>
               <pattern
@@ -33,11 +33,12 @@
         </span>
         {{ heroPicture.subtitle }}
       </h2>
-      <p class="text-base text-gray-700 md:text-lg">
-        {{ heroPicture.paragraph }}
-      </p>
+      <p
+        class="text-base text-gray-700 md:text-lg"
+        v-html="heroPicture.paragraph"
+      />
     </div>
-    <div class="flex items-center mt-6 -mx-2 mb-8">
+    <div class="flex items-center -mx-2 mb-8">
       <a
         class="mx-2"
         href="https://www.instagram.com/t_boot_dev/?hl=fr"
@@ -87,7 +88,7 @@
     </div>
     <img
       :src="heroPicture.picture"
-      class="w-full mx-auto md:w-auto md:max-w-xs rounded-full border-2 border-blue-400"
+      class="mx-auto w-2/5 md:w-auto md:max-w-xs rounded-full border-4 border-scooter-600"
     >
   </div>
 </template>

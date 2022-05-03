@@ -28,13 +28,13 @@ export const RIGHT_HERO_DATA : IRightHero = {
 export const PICTURE_HERO_DATA : IPictureHero = {
   title: 'Qui',
   subtitle: 'je suis :',
-  paragraph: "Je suis Thibaut Plichon, <strong>développeur</strong> depuis 2021 j'ai toujours été passionné d'informatique et ai entrepris de devenir développeur dans le but d'accompagner les pros dans la création d'application <strong>web</strong>. <br><br> Je suis tout aussi attentif au côté <strong>technique</strong> que <strong>créatif</strong> et ce mélange me permet de réaliser du contenu performant et personnalisé.",
+  paragraph: "Je suis Thibaut Plichon, <strong>développeur</strong> depuis 2021 j'ai toujours été passionné d'informatique et ai entrepris de poursuivre cette voie dans le but d'accompagner les professionels dans la création d'applications <strong>web</strong>. <br><br> Je suis tout aussi attentif au côté <strong>technique</strong> que <strong>créatif</strong> et ce mélange me permet de réaliser du contenu performant et personnalisé.",
   socials: [
     { url: 'https://www.instagram.com/t_boot_dev/?hl=fr', label: 'Instagram' },
     { url: 'https://www.linkedin.com/in/thibaut-plichon-2b316b1a0/', label: 'Linkedin' },
     { url: 'https://github.com/Thibateau', label: 'Github' },
   ],
-  picture: '/images/Thibaut.png',
+  picture: '/images/thibaut2.jpg',
 }
 export const TOOL_BOX_DATA : IToolsBox = {
   title: 'Ma boite à outils :',

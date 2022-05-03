@@ -2,7 +2,7 @@
   <div>
     <nav>
       <div class="bg-scooter-600 bg-no-repeat sm:max-w-full bg-[url('/images/cube2plafond.png')] bg-right">
-        <div class=" px-4 py-6 mx-auto lg:py-6 sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div class=" px-8 py-2 mx-auto lg:py-2 sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
             <ul class="items-center lg:flex">
               <li
@@ -13,7 +13,7 @@
                   :to="{name: item.name}"
                   :aria-label="item.label"
                   :title="item.label"
-                  class="lg:mr-12 text-xl text-white flex lg:w-32 lg:h-8 font-glitten items-center justify-center drop-shadow-xl hover:animate-bounce"
+                  class="mb-4 lg:mr-12 text-2xl text-white flex lg:w-32 lg:h-8 font-glitten items-center justify-center drop-shadow-xl hover:animate-bounce"
                 >
                   {{
                     item.label
@@ -40,7 +40,7 @@
                   :to="{name: item.name}"
                   :aria-label="item.label"
                   :title="item.label"
-                  class="lg:mr-12 text-xl text-white flex lg:w-32 lg:h-8 items-center justify-center font-glitten drop-shadow-xl hover:animate-bounce"
+                  class="mb-4 lg:mr-12 text-2xl text-white flex lg:w-32 lg:h-8 items-center justify-center font-glitten drop-shadow-xl hover:animate-bounce"
                 >
                   {{
                     item.label

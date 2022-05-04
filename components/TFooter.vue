@@ -17,6 +17,7 @@
                   :src="footer.logo"
                   width="120"
                   alt="TBootLogo"
+                  loading="lazy"
                 >
                 <span class="ml-2 text-xl font-bold tracking-wide text-white font-glitten">{{ footer.title }}</span>
               </a>
@@ -68,7 +69,7 @@
             <div class="flex items-center mt-4 space-x-4 sm:mt-0">
               <a
                 href="https://github.com/Thibateau"
-                class=""
+                name="github"
               >
                 <svg
                   viewBox="0 0 24 24"
@@ -84,7 +85,7 @@
               </a>
               <a
                 href="https://www.instagram.com/t_boot_dev/?hl=fr"
-                class=""
+                name="instagram"
               >
                 <svg
                   viewBox="0 0 30 30"
@@ -103,7 +104,7 @@
               </a>
               <a
                 href="https://www.linkedin.com/in/thibaut-plichon-2b316b1a0/"
-                class=""
+                name="linkedin"
               >
                 <svg
                   class="h-6 text-white"

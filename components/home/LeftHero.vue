@@ -4,7 +4,8 @@
       <img
         :src="heroLeft.picture"
         class="object-cover object-right w-full h-auto lg:w-auto lg:h-full"
-        alt=""
+        alt="PresentationScreen"
+        loading="lazy"
       >
     </div>
     <div class="mr-2 relative flex justify-end max-w-xl mx-auto xl:pr-32 lg:max-w-screen-xl">

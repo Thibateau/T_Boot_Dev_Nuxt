@@ -11,7 +11,6 @@
           :presentation-project="item"
         >
           <a
-            href="#"
             class="group block"
           >
             <div
@@ -20,8 +19,9 @@
             >
               <img
                 :src="item.picture"
-                alt="Brown leather key ring with brass metal loops and rivets on wood table."
-                class="w-full mt-6 h-full object-center object-cover"
+                alt="project"
+                class="w-full mt-6 h-full object-center object-cover aspect-video"
+                loading="lazy"
               >
             </div>
             <h3 class="mt-4 text-base font-semibold text-gray-900">{{ item.title }}</h3>

@@ -28,7 +28,7 @@
                 :src="nav.logo"
                 width="170"
                 alt="TBootLogo"
-                class=""
+                loading="lazy"
               >
             </RouterLink>
             <ul class="items-center lg:flex">

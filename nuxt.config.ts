@@ -2,17 +2,17 @@ import { defineNuxtConfig, NuxtConfig } from 'nuxt'
 
 const config: NuxtConfig = {
   head: {
-    title: 'Nuxt 3 custom install',
+    title: 'Tboot',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'fr',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Site TBOOT' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/images/logo.ico' }],
   },
 
   plugins: [],

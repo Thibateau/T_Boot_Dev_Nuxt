@@ -55,6 +55,8 @@
           <img
             :src="heroPicture.picture"
             class="w-full rounded-t-xl"
+            alt="Thibaut.P"
+            loading="lazy"
           >
           <a href="#!">
             <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" />
@@ -76,13 +78,14 @@
           <p class="text-gray-500 mb-6">Front-end developer</p>
           <ul class="list-inside flex mx-auto justify-center">
             <a
-              href="#!"
+              href="https://www.instagram.com/t_boot_dev/"
               class="px-2"
             >
               <svg
                 viewBox="0 0 30 30"
                 fill="currentColor"
                 class="w-8 h-8 animate-bounce"
+                name="Instagram"
               >
                 <circle
                   cx="15"
@@ -98,6 +101,7 @@
               class="mx-2"
               href="https://www.linkedin.com/in/thibaut-plichon-2b316b1a0/"
               aria-label="Linkedin"
+              name="Linkedin"
             >
               <svg
                 class="w-8 h-8 animate-bounce text-gray-700 fill-currenthover:text-gray-600"
@@ -110,6 +114,7 @@
               class="mx-2"
               href="https://github.com/Thibateau"
               aria-label="Github"
+              name="Github"
             >
               <svg
                 class="w-8 h-8 animate-bounce text-gray-700 fill-currenthover:text-gray-600 "

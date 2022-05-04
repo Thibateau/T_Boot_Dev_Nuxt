@@ -22,6 +22,7 @@
                 class="object-cover w-20 h-20 mb-2 rounded-full shadow"
                 :src="item.picture"
                 :alt="item.label"
+                loading="lazy"
               >
               <div class="flex flex-col items-center">
                 <p class="text-lg font-bold">{{ item.label }}</p>

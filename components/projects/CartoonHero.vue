@@ -24,7 +24,9 @@
     </div>
     <img
       :src="heroCartoon.picture"
-      class="flex w-2/5 h-full sm:w-1/6"
+      class="flex w-2/5 h-full sm:w-2/12"
+      alt="CartoonThibaut"
+      loading="lazy"
     >
   </div>
 </template>

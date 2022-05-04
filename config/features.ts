@@ -19,7 +19,7 @@ export const LEFT_HERO_DATA: ILeftHero = {
   paragraph: "Création d'applications web dynamiques , rapides, design.",
 }
 export const RIGHT_HERO_DATA : IRightHero = {
-  picture: 'https://kitwind.io/assets/kometa/full-browser.png',
+  picture: 'https://kitwind.io/assets/kometa/half-phone.png',
   title: "Utilisation d'outils performants",
   subtitle: "Je suis soucieux de developper les applications avec des technologies qui ont un rendu perfomant, rapide, stable et sécurisé afin d'optimiser le résultat.",
   label: 'Me contacter',

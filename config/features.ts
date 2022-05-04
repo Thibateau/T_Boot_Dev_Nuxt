@@ -15,20 +15,20 @@ export const NAV_BAR_DATA : INavBar = {
 export const LEFT_HERO_DATA: ILeftHero = {
   picture: 'https://kitwind.io/assets/kometa/laptop.png',
   title: 'TBoot développement',
-  subtitle: 'web front-end',
-  paragraph: "Création d'applications web dynamiques , rapides, design.",
+  subtitle: 'Web front-end',
+  paragraph: 'Je crée des sites, applications web dynamiques , rapides, design afin de vous donner de la visibilité.',
 }
 export const RIGHT_HERO_DATA : IRightHero = {
   picture: 'https://kitwind.io/assets/kometa/half-phone.png',
-  title: "Utilisation d'outils performants",
-  subtitle: "Je suis soucieux de developper les applications avec des technologies qui ont un rendu perfomant, rapide, stable et sécurisé afin d'optimiser le résultat.",
+  title: "Création de supports web",
+  subtitle: "Je suis soucieux de developper des applications avec des technologies qui ont un rendu perfomant, rapide, stable et sécurisé afin d'optimiser le résultat.",
   label: 'Me contacter',
 }
 // ABOUT PAGE
 export const PICTURE_HERO_DATA : IPictureHero = {
   title: 'Qui',
   subtitle: 'je suis :',
-  paragraph: "Je suis Thibaut Plichon, <strong>développeur</strong> depuis 2021 j'ai toujours été passionné d'informatique et ai entrepris de poursuivre cette voie dans le but d'accompagner les professionels dans la création d'applications <strong>web</strong>. <br><br> Je suis tout aussi attentif au côté <strong>technique</strong> que <strong>créatif</strong> et ce mélange me permet de réaliser du contenu performant et personnalisé.",
+  paragraph: "Je suis Thibaut Plichon, <strong>développeur</strong> depuis 2021 j'ai toujours été passionné d'informatique et ai entrepris de poursuivre cette voie dans le but d'accompagner les professionels dans la création d'applications <strong>web</strong>. <br><br> Je suis tout aussi attentif au côté <strong>technique</strong> que <strong>créatif</strong> et ce mélange me permet de réaliser du contenu performant et personnalisé pour les particuliers ainsi que les professionels.",
   socials: [
     { url: 'https://www.instagram.com/t_boot_dev/?hl=fr', label: 'Instagram' },
     { url: 'https://www.linkedin.com/in/thibaut-plichon-2b316b1a0/', label: 'Linkedin' },

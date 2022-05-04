@@ -5,10 +5,10 @@
         :src="heroLeft.picture"
         class="object-cover object-right w-full h-auto lg:w-auto lg:h-full"
         alt="PresentationScreen"
-        loading="lazy"
+        
       >
     </div>
-    <div class="mr-2 relative flex justify-end max-w-xl mx-auto xl:pr-32 lg:max-w-screen-xl">
+    <div class="relative flex justify-end max-w-xl mx-auto lg:max-w-screen-xl">
       <div class="sm:mb-0 lg:pr-5 lg:max-w-lg lg:mb-0">
         <div class="max-w-xl mb-6">
           <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">

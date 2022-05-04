@@ -14,7 +14,7 @@ const config: NuxtConfig = {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/images/logo.ico' }],
   },
-
+  target: 'static',
   plugins: [],
 
   components: [
@@ -41,3 +41,4 @@ const config: NuxtConfig = {
   },
 }
 export default defineNuxtConfig(config)
+

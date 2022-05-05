@@ -13,12 +13,10 @@
     </div>
     <div class="flex">
       <iframe
-        class="flex airtable-embed mt-10"
+        class="flex airtable-embed mt-10 h-[2050px] sm:h-[1675px] md:h-[1675px]"
         src="https://airtable.com/embed/shrY7iNr8E3hzuqBF?backgroundColor=green"
         frameborder="0"
-        onmousewheel=""
         width="100%"
-        height="1680"
         style="background: transparent;"
         @load="gifplay"
       />

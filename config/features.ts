@@ -3,7 +3,7 @@ import { ILeftHero, IPictureHero, IRightHero, IToolsBox, ICartoonHero, IProjectP
 export const NAV_BAR_DATA : INavBar = {
   left: [
     { label: 'Accueil', name: 'index' },
-    { label: 'A propos', name: 'about' },
+    { label: 'Perso', name: 'about' },
   ],
   right: [
     { label: 'Projets', name: 'projects' },
@@ -20,7 +20,7 @@ export const LEFT_HERO_DATA: ILeftHero = {
 }
 export const RIGHT_HERO_DATA : IRightHero = {
   picture: 'https://kitwind.io/assets/kometa/half-phone.png',
-  title: "Création de supports web",
+  title: 'Création de supports web',
   subtitle: "Je suis soucieux de developper des applications avec des technologies qui ont un rendu perfomant, rapide, stable et sécurisé afin d'optimiser le résultat.",
   label: 'Me contacter',
 }
@@ -76,7 +76,7 @@ export const FOOTER_DATA : IFooter = {
   subtitle: 'T_Boot développement web Front-End.',
   items: [
     { label: 'ACCUEIL', name: 'index' },
-    { label: 'A PROPOS', name: 'about' },
+    { label: 'PERSO', name: 'about' },
     { label: 'PROJETS', name: 'projets' },
     { label: 'CONTACT', name: 'contact' },
   ],

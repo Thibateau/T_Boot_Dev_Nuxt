@@ -38,14 +38,7 @@
         v-html="heroPicture.paragraph"
       />
     </div>
-    <div class="flex items-center -mx-2 mb-8">
-      <a
-        class="mx-2"
-        href="https://www.instagram.com/t_boot_dev/?hl=fr"
-        aria-label="Instagram"
-      />
-    </div>
-  </div>>
+  </div>
   <div
     class="mx-auto w-2/5 md:w-auto md:max-w-xs"
   >

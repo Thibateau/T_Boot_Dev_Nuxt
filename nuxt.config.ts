@@ -7,9 +7,10 @@ const config: NuxtConfig = {
       lang: 'fr',
     },
     meta: [
+      { title: 'TBoot' },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Site TBOOT' },
+      { hid: 'description', name: 'description', content: 'Site personnel TBOOT developpement' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/images/logo.ico' }],
@@ -41,4 +42,3 @@ const config: NuxtConfig = {
   },
 }
 export default defineNuxtConfig(config)
-

@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav>
-      <div class="bg-scooter-600 bg-no-repeat sm:max-w-full bg-[url('/images/cube2plafond.png')] bg-right">
+      <div class="bg-scooter-600 bg-no-repeat sm:max-w-full bg-[url('/images/cube2plafond.webp')] bg-right">
         <div class=" px-8 py-2 mx-auto lg:py-2 sm:max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
             <ul class="items-center lg:flex">

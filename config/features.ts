@@ -9,17 +9,17 @@ export const NAV_BAR_DATA : INavBar = {
     { label: 'Projets', name: 'projects' },
     { label: 'Contact', name: 'contact' },
   ],
-  logo: '/images/logo.png',
+  logo: '/images/logo.webp',
 }
 // HOME PAGE
 export const LEFT_HERO_DATA: ILeftHero = {
-  picture: 'https://kitwind.io/assets/kometa/laptop.png',
+  picture: '/images/laptop.webp',
   title: 'TBoot développement',
   subtitle: 'Web front-end',
   paragraph: 'Je crée des sites, applications web dynamiques , rapides, design afin de vous donner de la visibilité.',
 }
 export const RIGHT_HERO_DATA : IRightHero = {
-  picture: 'https://kitwind.io/assets/kometa/half-phone.png',
+  picture: '/images/half-phone.webp',
   title: 'Création de supports web',
   subtitle: "Je suis soucieux de developper des applications avec des technologies qui ont un rendu perfomant, rapide, stable et sécurisé afin d'optimiser le résultat.",
   label: 'Me contacter',
@@ -81,7 +81,7 @@ export const FOOTER_DATA : IFooter = {
     { label: 'CONTACT', name: 'contact' },
   ],
   rights: ' © Copyright 2022 T_Boot_Dev. All rights reserved.',
-  logo: '/images/logo.png',
+  logo: '/images/logo.webp',
   social: [
     { url: 'https://www.instagram.com/t_boot_dev/?hl=fr', label: 'Instagram' },
     { url: 'https://www.linkedin.com/in/thibaut-plichon-2b316b1a0/', label: 'Linkedin' },

@@ -5,7 +5,6 @@
         :src="heroLeft.picture"
         class="object-cover object-right w-full h-auto lg:w-auto lg:h-full"
         alt="PresentationScreen"
-        
       >
     </div>
     <div class="relative flex justify-end max-w-xl mx-auto lg:max-w-screen-xl">
